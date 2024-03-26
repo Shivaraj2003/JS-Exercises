@@ -9,22 +9,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div>
     <h1>IMDB Rating</h1>
     
-    <div class="dropdown ms-2 mt-0">
+    <div class="dropdown ms-2 " id="dropdown">
         <button class="btn" type="button" id="filterIcon" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-filter fa-2x"></i> 
         </button>
         <div class="dropdown-menu" aria-labelledby="filterIcon" id="filterDropdown">
-            <a class="dropdown-item" href="#" data-value="4.5">4.5 & above</a>
-            <a class="dropdown-item" href="#" data-value="4">4 & above</a>
-            <a class="dropdown-item" href="#" data-value="3">3 & above</a>
-            <a class="dropdown-item" href="#" data-value="2">2 & above</a>
-            <a class="dropdown-item" href="#" data-value="1">1 & above</a> 
+            <a class="dropdown-item" href="#" data-value="8.3">8.3 & above</a>
+            <a class="dropdown-item" href="#" data-value="8">8 & above</a>
+            <a class="dropdown-item" href="#" data-value="7">7 & above</a>
+            <a class="dropdown-item" href="#" data-value="6">6 & above</a>
+            <a class="dropdown-item" href="#" data-value="5">5 & above</a> 
         </div>
     </div>
-
-    <div class="container">
+</div>
+    <div class="container mt-5">
         <table class="table table-bordered">
             <thead>
                 <tr>
